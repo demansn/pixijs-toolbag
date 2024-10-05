@@ -18,16 +18,20 @@ export class DisplayObjectPropertiesSetter {
         if (position) {
             this.setPointValue(displayObject.position, position);
         } else {
-            if (typeof x === 'string') {
-                displayObject.x = this.calculateValueExpression(x, displayObject.width, this.parent.width, this.screenSize.width);
-            } else {
-                displayObject.x = x;
+            if (x !== undefined) {
+                if (typeof x === 'string') {
+                    displayObject.x = this.calculateValueExpression(x, displayObject.width, this.parent.width, this.screenSize.width);
+                } else {
+                    displayObject.x = x;
+                }
             }
 
-            if (typeof y === 'string') {
-                displayObject.y = this.calculateValueExpression(y, displayObject.height, this.parent.height, this.screenSize.height);
-            } else {
-                displayObject.y = y;
+            if (y !== undefined) {
+                if (typeof y === 'string') {
+                    displayObject.y = this.calculateValueExpression(y, displayObject.height, this.parent.height, this.screenSize.height);
+                } else {
+                    displayObject.y = y;
+                }
             }
         }
 

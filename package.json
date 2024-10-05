@@ -1,0 +1,23 @@
+{
+  "name": "pixijs-toolbag",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/demansn/pixijs-toolbag.git"
+  },
+  "keywords": [
+    "pixi.js",
+    "game",
+    "html5"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demansn/pixijs-toolbag/issues"
+  },
+  "homepage": "https://github.com/demansn/pixijs-toolbag#readme",
+  "description": ""
+}

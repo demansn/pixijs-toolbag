@@ -1,9 +1,8 @@
 {
   "name": "pixijs-toolbag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/demansn/pixijs-toolbag.git"
